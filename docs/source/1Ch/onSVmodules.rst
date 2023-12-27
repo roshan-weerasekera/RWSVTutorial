@@ -9,3 +9,21 @@ The module in SystemVerilog is the basic unit (block) of hierarchy. It describes
    :alt: map to buried treasure
 
    Two input multiplexor symbol and its gate level schematic
+
+.. code-block:: 
+   :caption: CaptionHere
+
+   module mux2gate(f, in0, in1, sel);
+   // this is a comment
+	   output logic  f;
+	   input logic in0, in1, sel;
+	   logic out1,nsel,out2; 
+
+      /* This is a multi line 
+      comment */
+
+	   and u0 (out1,in1,sel); // <module type> <instance name> 
+	   not u2 (nsel, sel); 
+	   and u1 (out2,nsel,in0);
+	   or u3 (f,out1,out2);
+   endmodule: mux2gate
