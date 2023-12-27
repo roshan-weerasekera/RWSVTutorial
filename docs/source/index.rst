@@ -1,13 +1,6 @@
 System Verilog for Digital Logic Circuit Modelling!
 ==================================================
-
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+System Verilog is a textual mean of describing or modelling digital logic circuits and systems. The software tools available is capable of (a) simulating the models; (b) test and verify them; and (c) synthesise them to circuits to be implemented as Application Specific Integrated Circuit (ASIC) or on a Field Programmable Gate Array (FPGA). It is a digital hardware modelling language. 
 
 .. note::
 
