@@ -11,5 +11,5 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   On SystemVerilog Modules
+   SystemVerilog Statements
