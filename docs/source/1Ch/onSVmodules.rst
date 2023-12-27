@@ -5,6 +5,7 @@ The module in SystemVerilog is the basic unit (block) of hierarchy. It describes
 
 .. figure:: ch1MUX.png
    :scale: 50 %
+   :align: center
    :alt: map to buried treasure
 
    Two input multiplexor symbol and its gate level schematic
