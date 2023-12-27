@@ -10,6 +10,6 @@ Contents
 --------
 
 .. toctree::
-
+   Home <self>
    onSVmodules
    SVstatements
