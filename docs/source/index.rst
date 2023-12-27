@@ -11,5 +11,5 @@ Contents
 
 .. toctree::
    Home <self>
-   onSVmodules
-   SVstatements
+   1Ch/onSVmodules
+   2Ch/SVstatements
