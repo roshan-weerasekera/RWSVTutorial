@@ -29,7 +29,7 @@ Multiplexer is a combinational logic circuit which outputs the data coming from 
 	   or u3 (f,out1,out2);
    endmodule: mux2gate
 
-Like in C langauage, \SV commands and keywords must be written in lower-case letters, and all the identifiers are case-senstive - *a and *A* are two different identifiers. 
+Like in C langauage, \SV commands and keywords must be written in lower-case letters, and all the identifiers are case-senstive - *a* and *A* are two different identifiers. 
 
 Modules start with the keyword *module* followed by its name *mux2gate* (line 1), given by the designer. 
 .. code-block:: 
