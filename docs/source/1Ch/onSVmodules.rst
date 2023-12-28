@@ -6,7 +6,7 @@ On System Verilog Modules
 Multiplexer is a combinational logic circuit which outputs the data coming from one of its inputs as defined by the value of its selection signal. For example, a two input MUX has two data inputs (in0,in1) and a selector input (sel), and it has only one output (f ) (refer Figure 1 for the circuit).
 
 .. figure:: ch1MUX.png
-   :scale: 50 %
+   :scale: 25 %
    :align: center
 
    Two input multiplexor symbol and its gate level schematic
