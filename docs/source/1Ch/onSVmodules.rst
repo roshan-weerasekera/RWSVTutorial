@@ -12,7 +12,7 @@ Multiplexer is a combinational logic circuit which outputs the data coming from 
    Two input multiplexor symbol and its gate level schematic
 
 .. code-block:: 
-   :caption: CaptionHere
+   :caption: mux2gate module description
 
    module mux2gate(f, in0, in1, sel);
    // this is a comment
@@ -29,12 +29,12 @@ Multiplexer is a combinational logic circuit which outputs the data coming from 
 	   or u3 (f,out1,out2);
    endmodule: mux2gate
 
-Like in C langauage, \SV commands and keywords must be written in lower-case letters, and all the identifiers are case-senstive - \texttt{a} and \texttt{A} are two different identifiers. 
+Like in C langauage, \SV commands and keywords must be written in lower-case letters, and all the identifiers are case-senstive - *a and *A* are two different identifiers. 
 
-Modules start with the keyword \texttt{module} followed by its name \textit{mux2gate} (line 1), given by the designer. 
-\begin{lstlisting}[language=SystemVerilog,frame=none, numbers=none]
-module mux2gate(f, in0, in1, sel);
-\end{lstlisting}
+Modules start with the keyword *module* followed by its name *mux2gate* (line 1), given by the designer. 
+.. code-block:: 
+   :caption: CaptionHere
+    module mux2gate(f, in0, in1, sel);
 
 Written within brackets (in1, in2, sel and f) are the interface port names through which module interacts with the outside (Note that in \SV there are modules without a port list, which do not generate any logic block, but they are used to test logic blocks desgined in \SV.) It is always a good idea to use meaningful names for both module name and port names. The line 1 in the module description is equivalent to the block level view of the component showing only its connections to outside, without highlighting the minute internal details. This line is similar to the MUX symbol in Figure \ref{fig:gatelevelMux} (a).  
 
